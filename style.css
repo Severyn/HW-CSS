@@ -2,7 +2,7 @@ body{
     background-color: #638a79;
     background-image: url("img/body-bg.png");
     background-repeat: repeat-x;
-    background-position: fixed;
+    background-attachment: fixed;
     font-size: 13px;
     line-height: 18px;
     color: #333;
@@ -19,8 +19,7 @@ body{
 .content .content-top {
 	height: 12px;
 	background-image: url("img/content-bg.png");
-	background-position: 0, 0;
-	
+	background-position: 0%, 0%;
 }
 .content .content-bottom {
 	height: 12px;
